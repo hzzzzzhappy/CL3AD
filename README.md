@@ -1,4 +1,7 @@
 # Continuous Learning for 3D Anomaly Detection (CL3AD)
+
+This is the official implementation of paper 'C3D-AD: Toward Continual 3D Anomaly Detection via Kernel Attention with Learnable Advisor'.
+
 Haoquan Lu, Hanzhe Liang, Jie Zhang, Chenxi Hu, Jinbao Wang, Can Gao
 
 ![Pipeline](docs/pipeline.png)
