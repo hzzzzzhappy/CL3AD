@@ -1,7 +1,7 @@
 # Continuous Learning for 3D Anomaly Detection (CL3AD)
 Haoquan Lu, Hanzhe Liang, Jie Zhang, Chenxi Hu, Jinbao Wang, Can Gao
 
-<!-- ![Image text](docs/MC3D-AD.png) -->
+![Pipeline](docs/pipeline.png)
 
 ## 1. Quick Start
 
