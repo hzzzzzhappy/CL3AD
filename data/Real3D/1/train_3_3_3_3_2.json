@@ -1,0 +1,12 @@
+{"filename": "car/train/86_template.pcd", "label": 0, "label_name": "good", "clsname": "car"}
+{"filename": "car/train/153_template.pcd", "label": 0, "label_name": "good", "clsname": "car"}
+{"filename": "car/train/40_template.pcd", "label": 0, "label_name": "good", "clsname": "car"}
+{"filename": "car/train/184_template.pcd", "label": 0, "label_name": "good", "clsname": "car"}
+{"filename": "chicken/train/4_template.pcd", "label": 0, "label_name": "good", "clsname": "chicken"}
+{"filename": "chicken/train/2_template.pcd", "label": 0, "label_name": "good", "clsname": "chicken"}
+{"filename": "chicken/train/1_template.pcd", "label": 0, "label_name": "good", "clsname": "chicken"}
+{"filename": "chicken/train/3_template.pcd", "label": 0, "label_name": "good", "clsname": "chicken"}
+{"filename": "gemstone/train/670_template.pcd", "label": 0, "label_name": "good", "clsname": "gemstone"}
+{"filename": "gemstone/train/176_template.pcd", "label": 0, "label_name": "good", "clsname": "gemstone"}
+{"filename": "gemstone/train/534_template.pcd", "label": 0, "label_name": "good", "clsname": "gemstone"}
+{"filename": "gemstone/train/737_template.pcd", "label": 0, "label_name": "good", "clsname": "gemstone"}

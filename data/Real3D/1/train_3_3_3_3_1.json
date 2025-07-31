@@ -1,0 +1,12 @@
+{"filename": "toffees/train/216_template.pcd", "label": 0, "label_name": "good", "clsname": "toffees"}
+{"filename": "toffees/train/117_template.pcd", "label": 0, "label_name": "good", "clsname": "toffees"}
+{"filename": "toffees/train/251_template.pcd", "label": 0, "label_name": "good", "clsname": "toffees"}
+{"filename": "toffees/train/177_template.pcd", "label": 0, "label_name": "good", "clsname": "toffees"}
+{"filename": "seahorse/train/173_template.pcd", "label": 0, "label_name": "good", "clsname": "seahorse"}
+{"filename": "seahorse/train/52_template.pcd", "label": 0, "label_name": "good", "clsname": "seahorse"}
+{"filename": "seahorse/train/112_template.pcd", "label": 0, "label_name": "good", "clsname": "seahorse"}
+{"filename": "seahorse/train/81_template.pcd", "label": 0, "label_name": "good", "clsname": "seahorse"}
+{"filename": "fish/train/176_template.pcd", "label": 0, "label_name": "good", "clsname": "fish"}
+{"filename": "fish/train/47_template.pcd", "label": 0, "label_name": "good", "clsname": "fish"}
+{"filename": "fish/train/147_template.pcd", "label": 0, "label_name": "good", "clsname": "fish"}
+{"filename": "fish/train/94_template.pcd", "label": 0, "label_name": "good", "clsname": "fish"}

@@ -1,0 +1,4 @@
+{"filename": "shell/train/63_template.pcd", "label": 0, "label_name": "good", "clsname": "shell"}
+{"filename": "shell/train/231_template.pcd", "label": 0, "label_name": "good", "clsname": "shell"}
+{"filename": "shell/train/126_template.pcd", "label": 0, "label_name": "good", "clsname": "shell"}
+{"filename": "shell/train/184_template.pcd", "label": 0, "label_name": "good", "clsname": "shell"}

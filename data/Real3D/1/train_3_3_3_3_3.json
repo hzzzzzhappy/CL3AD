@@ -1,0 +1,12 @@
+{"filename": "starfish/train/139_template.pcd", "label": 0, "label_name": "good", "clsname": "starfish"}
+{"filename": "starfish/train/105_template.pcd", "label": 0, "label_name": "good", "clsname": "starfish"}
+{"filename": "starfish/train/84_template.pcd", "label": 0, "label_name": "good", "clsname": "starfish"}
+{"filename": "starfish/train/41_template.pcd", "label": 0, "label_name": "good", "clsname": "starfish"}
+{"filename": "candybar/train/45_template.pcd", "label": 0, "label_name": "good", "clsname": "candybar"}
+{"filename": "candybar/train/123_template.pcd", "label": 0, "label_name": "good", "clsname": "candybar"}
+{"filename": "candybar/train/76_template.pcd", "label": 0, "label_name": "good", "clsname": "candybar"}
+{"filename": "candybar/train/99_template.pcd", "label": 0, "label_name": "good", "clsname": "candybar"}
+{"filename": "duck/train/261_template.pcd", "label": 0, "label_name": "good", "clsname": "duck"}
+{"filename": "duck/train/164_template.pcd", "label": 0, "label_name": "good", "clsname": "duck"}
+{"filename": "duck/train/514_template.pcd", "label": 0, "label_name": "good", "clsname": "duck"}
+{"filename": "duck/train/107_template.pcd", "label": 0, "label_name": "good", "clsname": "duck"}

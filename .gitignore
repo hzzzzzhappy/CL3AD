@@ -1,0 +1,40 @@
+# 忽略所有 .pth 文件
+*.pth
+
+# 忽略所有 .pth.tar 文件
+*.pth.tar
+
+# 忽略所有 .npz 文件
+*.npz
+
+*.whl
+
+nohup.out
+
+*.tar.gz
+
+experiments/Anomaly_ShapeNet/log/
+experiments/real3d/log/
+experiments/MulSen_AD/log/
+
+# 或者更具体地，忽略特定的文件夹
+# 比如，如果所有 checkpoints 都不想上传
+experiments/Anomaly_ShapeNet/checkpoints_9_1_cls/
+experiments/Anomaly_ShapeNet/checkpoints_10_10_10_10_cls/
+experiments/real3d/checkpoints_11_1_cls1/
+experiments/real3d/checkpoints_3_3_3_3_cls1/
+experiments/MulSen_AD/checkpoints_5_5_5_cls1/
+
+# 忽略预训练模型文件夹
+pretrain_ckp/
+protobuf-3.20.3/
+feature/
+
+# 如果 .idea 或 .vscode 文件夹存在，也建议加上
+.idea/
+.vscode/
+
+# Python 缓存
+__pycache__/
+*.pyc
+

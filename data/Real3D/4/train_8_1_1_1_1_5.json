@@ -1,0 +1,4 @@
+{"filename": "diamond/train/172_template.pcd", "label": 0, "label_name": "good", "clsname": "diamond"}
+{"filename": "diamond/train/40_template.pcd", "label": 0, "label_name": "good", "clsname": "diamond"}
+{"filename": "diamond/train/126_template.pcd", "label": 0, "label_name": "good", "clsname": "diamond"}
+{"filename": "diamond/train/87_template.pcd", "label": 0, "label_name": "good", "clsname": "diamond"}

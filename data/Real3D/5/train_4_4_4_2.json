@@ -1,0 +1,16 @@
+{"filename": "chicken/train/4_template.pcd", "label": 0, "label_name": "good", "clsname": "chicken"}
+{"filename": "chicken/train/2_template.pcd", "label": 0, "label_name": "good", "clsname": "chicken"}
+{"filename": "chicken/train/1_template.pcd", "label": 0, "label_name": "good", "clsname": "chicken"}
+{"filename": "chicken/train/3_template.pcd", "label": 0, "label_name": "good", "clsname": "chicken"}
+{"filename": "gemstone/train/670_template.pcd", "label": 0, "label_name": "good", "clsname": "gemstone"}
+{"filename": "gemstone/train/176_template.pcd", "label": 0, "label_name": "good", "clsname": "gemstone"}
+{"filename": "gemstone/train/534_template.pcd", "label": 0, "label_name": "good", "clsname": "gemstone"}
+{"filename": "gemstone/train/737_template.pcd", "label": 0, "label_name": "good", "clsname": "gemstone"}
+{"filename": "starfish/train/139_template.pcd", "label": 0, "label_name": "good", "clsname": "starfish"}
+{"filename": "starfish/train/105_template.pcd", "label": 0, "label_name": "good", "clsname": "starfish"}
+{"filename": "starfish/train/84_template.pcd", "label": 0, "label_name": "good", "clsname": "starfish"}
+{"filename": "starfish/train/41_template.pcd", "label": 0, "label_name": "good", "clsname": "starfish"}
+{"filename": "candybar/train/45_template.pcd", "label": 0, "label_name": "good", "clsname": "candybar"}
+{"filename": "candybar/train/123_template.pcd", "label": 0, "label_name": "good", "clsname": "candybar"}
+{"filename": "candybar/train/76_template.pcd", "label": 0, "label_name": "good", "clsname": "candybar"}
+{"filename": "candybar/train/99_template.pcd", "label": 0, "label_name": "good", "clsname": "candybar"}

@@ -1,0 +1,126 @@
+version: v1.0.0
+random_seed: 42
+port: 11112
+
+dataset:
+  type: custom
+  data_dir: /data/data_lhq/MulSen_AD_process/           #This path must be modified to the absolute path of your own dataset !!!
+  task_num: [5,5,5]
+
+  train:
+    meta_file: ../../data/MulSen_AD/1/train
+
+  test:
+    meta_file: ../../data/MulSen_AD/1/test
+  batch_size: 1
+  workers: 1
+
+cls_dataset:
+  type: custom
+  data_dir: /data/data_lhq/MulSen_AD_process/           #This path must be modified to the absolute path of your own dataset !!!
+
+  train:
+    meta_file: ../../data/MulSen_AD/1/train_5_5_5_1.json
+
+  test:
+    meta_file: ../../data/MulSen_AD/1/test_5_5_5_1.json
+
+  batch_size: 1
+  workers: 1 # number of workers of dataloader for each process
+
+criterion:
+  - name: FeatureMSELoss
+    type: FeatureMSELoss
+    kwargs:
+      weight: 1.0
+
+cls_criterion:
+  - name: CLSEntropyLoss
+    type: CLSEntropyLoss
+    kwargs:
+      weight: 1.0
+
+trainer:
+  max_epoch: 200
+  clip_max_norm: 0.1
+  val_freq_epoch: 100
+  print_freq_step: 1
+  tb_freq_step: 1
+  adversarial_epsilon: 0.1  # Constraint ε for the L2 norm of the perturbation. Crucial to tune.
+  adversarial_xi: 0.000001      # A small value to initialize the random perturbation.
+  adversarial_steps: 3
+  kl_loss_weight: 0.01
+  use_kl_loss: True
+  lr_scheduler:
+    type: StepLR
+    kwargs:
+      step_size: 800
+      gamma: 0.1
+  optimizer:
+    type: AdamW
+    kwargs:
+      lr: 0.0001
+      betas: [0.9, 0.999]
+      weight_decay: 0.0001
+
+AD_training: True
+cls_training: False
+
+saver:
+  auto_resume: False
+  always_save: False
+  load_path: checkpoints_5_5_5_cls/ckpt_best.pth.tar
+  save_dir: checkpoints_5_5_5_cls/
+  log_dir: log/
+
+evaluator:
+  save_dir: result_5_5_5_cls
+  key_metric: mean_pixel-AUROC_auc
+  metrics:
+    auc:
+      - name: std
+      - name: max
+        kwargs:
+          avgpool_size: [16, 16]
+      - name: pixel
+  # vis_compound:
+  #   save_dir: vis_compound
+
+frozen_layers: [backbone]
+
+net:
+    - name: backbone
+      type: models.backbones.pointmae
+      frozen: True
+      kwargs:
+        pretrained: True
+        outlayers: [1,2,3,4]
+        checkpoint_path: ../../pretrain_ckp/modelnet_8k.pth
+        group_size: 128
+        num_group: 2048
+        data_dir: /data/data_lhq/MulSen_AD_process/          #This path must be modified to the absolute path of your own dataset !!!
+    - name: reconstruction
+      prev: backbone
+      type: models.reconstructions.UniAD
+      kwargs: 
+        inplanes: 384
+        feature_size: 1024
+        hidden_dim: 256
+        nhead: 8
+        num_encoder_layers: 4
+        num_decoder_layers: 4
+        dim_feedforward: 1024
+        dropout: 0.1
+        activation: relu
+        normalize_before: False
+        cls_num: 10
+        k: 5
+        mask_ratio: 0.4
+        feature_jitter:
+          scale: 20.0
+          prob: 1.0
+        neighbor_mask: False
+          # neighbor_size: [32,32]
+          # mask: [True, True, True] # whether use mask in [enc, dec1, dec2]
+        initializer:
+          method: xavier_uniform

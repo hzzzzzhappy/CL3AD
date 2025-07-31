@@ -1,0 +1,4 @@
+{"filename": "vase8/train/vase8_template1.pcd", "label": 0, "label_name": "good", "clsname": "vase8"}
+{"filename": "vase8/train/vase8_template2.pcd", "label": 0, "label_name": "good", "clsname": "vase8"}
+{"filename": "vase8/train/vase8_template3.pcd", "label": 0, "label_name": "good", "clsname": "vase8"}
+{"filename": "vase8/train/vase8_template0.pcd", "label": 0, "label_name": "good", "clsname": "vase8"}
