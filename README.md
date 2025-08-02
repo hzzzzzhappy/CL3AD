@@ -26,6 +26,9 @@ pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.
 - **Download feature extractor pre-trained weights.**
 Point-MAE pre-trained weights can be downloaded [here](https://github.com/Pang-Yatian/Point-MAE/releases/download/main/modelnet_8k.pth). After downloading, place the `modelnet_8k.pth` file in the `./pretrain_ckp` directory
 
+- **Download checkpoints of model. (Optional)**
+After downloading from [here](https://1drv.ms/f/c/0d5b79478e08e65d/EjgZ4YRYrM5IvLr1B1HORIMBSqbA2oCT2P9Xd5zUEemPkQ?e=motzY2), place the `ckpt_best.pth.tar` file in the `experiments/[dataset]/[load_path from config.yaml]` directory. For example, `experiments/real3d/checkpoints_x`
+
 ### 1.3 Real3D-AD
 
 - **How to get the Real3D-AD dataset**. Download the Real3D-AD dataset from [here](https://drive.google.com/file/d/1oM4qjhlIMsQc_wiFIFIVBvuuR8nyk2k0/view?usp=sharing). After downloading, unzip it to the directory you specified.
