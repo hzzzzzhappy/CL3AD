@@ -255,7 +255,7 @@ MulSen_AD_process
 |   mean    |   0.64013   |   0.671505    | -->
 
 ## Baseline method implementation
-For the pre-existing methods, we modified the content on their official code implementations to accommodate continuous learning settings. You can find the exact implementation [here](https://github.com/hzzzzzhappy/CL3AD-baseline-implementation).
+For the pre-existing methods, we modified the content on their official code implementations to accommodate continuous learning settings. You can find the exact implementation `` baseline/ ``.
 
 ## Acknowledgement
 
