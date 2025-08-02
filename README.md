@@ -18,10 +18,11 @@ pip install "git+https://github.com/erikwijmans/Pointnet2_PyTorch.git#egg=pointn
 pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.2/KNN_CUDA-0.2-py3-none-any.whl
 ```
 
+### 1.2 Checkpoints
 - **Download feature extractor pre-trained weights.**
 Point-MAE pre-trained weights can be downloaded [here](https://github.com/Pang-Yatian/Point-MAE/releases/download/main/modelnet_8k.pth). After downloading, place the `modelnet_8k.pth` file in the `./pretrain_ckp` directory
 
-### 1.2 Real3D-AD
+### 1.3 Real3D-AD
 
 - **How to get the Real3D-AD dataset**. Download the Real3D-AD dataset from [here](https://drive.google.com/file/d/1oM4qjhlIMsQc_wiFIFIVBvuuR8nyk2k0/view?usp=sharing). After downloading, unzip it to the directory you specified.
 
@@ -42,7 +43,7 @@ After the above operations are completed, the `real3D_down` directory will be cr
 
 - **Different continual tasks** Please match the `dataset.task_num`, `dataset.train / test.meta_file`, `cls_dataset.train / test.meta_file`, `saver.load_path`, `saver.save_dir`, `evaluator.save_dir`.
 
-### 1.3 Anomaly-ShapeNet
+### 1.4 Anomaly-ShapeNet
 
 - **How to get the Anomaly-ShapeNet dataset.** Download the Anomaly-ShapeNet dataset from [here](https://huggingface.co/datasets/Chopper233/Anomaly-ShapeNet). After downloading, unzip it to the directory you specified. Take out Anomaly-ShapeNet-v2/dataset/pcd and organize it into the following format:
 ```
@@ -76,7 +77,7 @@ Anomaly-ShapeNet
 
 - **Different continual tasks** Please match the `dataset.task_num`, `dataset.train / test.meta_file`, `cls_dataset.train / test.meta_file`, `saver.load_path`, `saver.save_dir`, `evaluator.save_dir`.
 
-### 1.4 MulSen_AD
+### 1.5 MulSen_AD
 - **How to get the MulSen_AD dataset.** Download the MulSen_AD dataset from [here](https://huggingface.co/datasets/orgjy314159/MulSen_AD/tree/main). After downloading, unzip it to the directory you specified. Follow [Hanzhe Liang](https://github.com/hzzzzzhappy/Processing-tools-for-the-MulSen_AD-dataset.git) to process the dataset into the following format:
 ```
 MulSen_AD_process
