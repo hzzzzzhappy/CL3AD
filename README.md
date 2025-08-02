@@ -2,7 +2,11 @@
 
 This is the official implementation of paper 'C3D-AD: Toward Continual 3D Anomaly Detection via Kernel Attention with Learnable Advisor'.
 
-Haoquan Lu, Hanzhe Liang, Jie Zhang, Chenxi Hu, Jinbao Wang, Can Gao
+Haoquan Lu, Hanzhe Liang, Jie Zhang, Chenxi Hu, Jinbao Wang, Can Gao.
+
+For code-related issues, please contact Hanzhe Liang (email: lianghanzhe2023@email.szu.edu.cn).
+
+For paper-related questions, please contact Haoquan Lu (email: 2200271072@email.szu.edu.cn).
 
 ![Pipeline](docs/pipeline.png)
 
