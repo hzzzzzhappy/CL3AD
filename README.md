@@ -1,4 +1,4 @@
-# Continuous Learning for 3D Anomaly Detection (CL3AD)
+# Continuous Learning for 3D Anomaly Detection (C3DAD)
 
 This is the official implementation of paper 'C3D-AD: Toward Continual 3D Anomaly Detection via Kernel Attention with Learnable Advisor'.
 
