@@ -1,6 +1,6 @@
 # Continuous Learning for 3D Anomaly Detection (C3DAD)
 
-This is the official implementation of paper 'C3D-AD: Toward Continual 3D Anomaly Detection via Kernel Attention with Learnable Advisor'.
+This is the official implementation of paper 'C3D-AD: Toward Continual 3D Anomaly Detection via Kernel Attention with Learnable Advisor'. You can read paper here at [Research Gate](https://www.researchgate.net/publication/394235312_C3D-AD_Toward_Continual_3D_Anomaly_Detection_via_Kernel_Attention_with_Learnable_Advisor) or [Github](https://github.com/hzzzzzhappy/CL3AD/blob/main/docs/paper.pdf).
 
 Haoquan Lu, Hanzhe Liang, Jie Zhang, Chenxi Hu, Jinbao Wang, Can Gao.
 
