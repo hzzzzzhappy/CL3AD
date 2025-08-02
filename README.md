@@ -260,7 +260,7 @@ For the pre-existing methods, we modified the content on their official code imp
 
 ## Acknowledgement
 
-Our work is built on [MC3D-AD]([https://github.com/jiayi-art/Continual-MC3D-AD](https://github.com/jiayi-art/MC3D-AD)), [UniAD](https://github.com/zhiyuanyou/UniAD) , [Reg3D-AD](https://github.com/M-3LAB/Real3D-AD) and [IMRNet](https://openaccess.thecvf.com/content/CVPR2024/html/Li_Towards_Scalable_3D_Anomaly_Detection_and_Localization_A_Benchmark_via_CVPR_2024_paper.html), thanks their extraordinary works!
+Our work is built on [MC3D-AD](https://github.com/jiayi-art/MC3D-AD), [UniAD](https://github.com/zhiyuanyou/UniAD), and [Reg3D-AD](https://github.com/M-3LAB/Real3D-AD), thanks their extraordinary works!
 
 ## Licences
 MIT License
